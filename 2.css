@@ -1,0 +1,189 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+p#texto{
+	font-family: 'Raleway', sans-serif;
+	
+ody{
+  background-color: #2550A3;
+  width: 1000px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.header-left{
+	height: 200px;
+	width: 300px;
+	float: left;ß
+}
+
+
+.header-rigth{
+	height: 200px;
+	width: 700px;
+	float: left;ß
+}
+
+.header-left img {
+    width: 65%;
+    height: 45%;
+    position: relative;
+    top: 25%;
+    left: 30%;
+}
+
+
+.medium{
+width: 55%;
+    position: relative;
+    left: 45%;
+    top: 8%;
+    margin-top: -5%;
+}
+
+
+
+.formTxt{
+width: 48%;
+    height: 25px;
+    background: #2550A3;
+    border: solid 1px;
+    border-color: #8585c3;
+    margin-bottom: 2%;
+    color: #fff;
+}
+
+
+.btn-send{
+	    background: #2550A3;
+    border: solid 1px;
+    border-color: #fff;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+/*
+section {
+  height: 100vh;
+}*/
+
+/* NAVIGATION */
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-family: Raleway;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #f3f3f3;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 20px;
+
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+    content: "";
+    height: 18px;
+    width: 19px;
+    left: 3px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+

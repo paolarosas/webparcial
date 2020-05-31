@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+</html>
+	<head>
+	<p id="texto"></p>
+	
+		<title>HTML + CSS</title>
+		<link>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+		
+		
+	
+		<style>
+		/*CSS RESETER*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+			body{
+				background-color: #004bbe;
+				color:white;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			header{
+				width:1000px;
+				height:200px;
+				margin:0 auto;
+				position:relative;
+			}
+			
+			header img{
+				position:absolute;
+				width:160px;
+				top:100px;
+				left:0px;
+			}
+			
+			header p{
+				position:absolute;
+				bottom: 0;
+				width:200px;
+				top:80px;
+				left:0px;
+			}
+			
+			header ul{
+				position:absolute;
+				bottom:0px;
+				right:0;
+			}
+			
+			header ul li{
+				display:inline-block;
+				font-weight:700;
+				font-size:18px;
+				margin-left:20px;
+				bottom:30px;
+				padding-bottom:10px;
+				width:80px;
+				text-align:center;
+			}
+			
+			header ul li.selected{
+				border-bottom:8px solid white;
+				
+			}
+			
+			#main{
+				width: 1000px;
+				margin:0 auto;
+				position:relative;
+			}
+			
+			#main spoon{
+				position:absolute;
+				width:1000px;
+				top:50px;
+			}
+			
+			#main line{
+				position:absolute;
+				top: 230px;
+				left: 330px;
+				width: 200px;
+				background-color:rgba(0,0,0,0);
+				
+			}
+			
+			#main form{
+				position:absolute;
+				width:480px;			
+				right:0;
+				top:260px;
+				line-height:50px;
+				font-size:22px;
+			}
+			
+			#main form .in{
+				width:300px;
+				height:40px;
+				border:1px solid rgba(255,255,255,0.6);
+				background-color: rgba(255,255,255,0.2);
+				font-size:18px;
+				color:white;
+				margin:10px 0 10px 0;
+			}
+			
+			#main form .btn{
+				display: block;
+				width:200px;
+				height:40px;
+				background-color: rgba(0,0,0,0);
+				color:white;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size: 18px;
+				font-weight:700;
+				border:1px solid white;
+				border-radius:8px;
+			}
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<img src="img/logo.png">
+			<p>Paola Danae Rosas Lemus</p>
+			<ul>
+				<li class="selected">HOME</li>
+				<li>ABOUT</li>
+				<li>WORK</li>
+				<li>BLOG</li>
+				<li>CONTACT</li>
+			</ul>
+			</header>
+			<div id="main">
+				<img src="img/spoon.png" class="spoon">
+				<img src="img/line.png" class="line">
+				<form>
+					<h3>Registrer</h3>
+					<input type="text" class="in" placeholder="name" >
+					<input type="text" class="in" placeholder="email">
+					<h3>Diners</h3>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+					</select>
+					<h3>Table</h3>
+					<input type="radio" name="a">Smoker
+					<input type="radio" name="a">Non Smoker
+					<input type="button" value="SEND" class="btn">
+				</form>
+				</div>			
+						
+			</header>
+		<div id="main">
+		</div>
+</body>
+</html>
